@@ -252,6 +252,10 @@ Properties of JEE
 				           TEAR
 
 	
+Association
+
+isA hasA uesA producesA
+
 
 		OOPS Concepts
 		--------------------
