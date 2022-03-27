@@ -1,0 +1,461 @@
+https://github.com/vishhaldawane/SBITO2
+https://github.com/vishhaldawane/Projects
+
+Full Statck Java - 6 Layers
+---------------------
+	layer 1 - TABLES - data base tables
+		PAYEE
+		-----
+		acno		ifsccode	payeename
+		123123123	SBI020202	mamta
+
+	layer 2 - POJO - plain old java object (data + functionality )
+		class Payee
+		{
+			int payeeAcNumber;
+			String payeeName;
+			void withdraw(){}	
+	
+		}
+	
+	layer 3 - Repository - kitchen - CR-RA-UD service - orm - HIBERNATE -SQL COMMANDS IN JAVA CODE
+
+			class PayeeRepository
+			{
+				void addPayee()
+				{
+
+				}
+			}
+	----------------- permission denied -------------
+	layer 4 - Business Service ->CORE JAVA
+			class PayeeManagementService
+			{
+				void addPayee()
+				{
+
+				}
+			}
+			
+
+	layer 5 - Controller - spring
+			http://sbi.com/bankproject/addpayee/bla bla bla ......
+
+	layer 6 - UI - angular/react
+
+				Java Programming language
+								- With Vishhal
+
+
+					who
+					|core people ???developer, tester, deploy, use
+				----------------------
+				|		|
+				when		where
+				|time		|where		space time	
+			----------------------------------------
+			|		|		|
+			why		what		how
+			reason		inFORMation	implementation
+								coding
+
+
+					JAVA
+		-------------------------------------------------		
+		|			|			|	
+
+		JSE			JEE			JME
+	Java std DESKTOP Appl	JAVA Enterprise Envirnoment  Java Mobile Enviornment
+	Calculator in desk	Shared network appl		Mobile appl		
+	CORE JAVA		ENTERPRISE JAVA
+
+=============================================================================================
+Language fundamentals
+
+
+
+				SBI APPLICATION
+				SERVER MACHINE
+				|	
+		------------------------------------------
+		|	|	|	|	|	|
+		PC	atm	PHONE	smart	ivr	visa
+		|	|	|	phone	|	|
+		sbi.com app	sms	app		cc/dc
+
+
+Properties of JEE 
+	
+	1. REMOTE CAPABILITY
+			NETWORKING
+		socket programming
+			ip address + port number
+
+	2. HIGH AVAILABILITY - 24 X 7 
+
+	3. MULTITHREADING
+
+	4. pooling of the resources
+	5. caching of resources
+	6. transaction management 	- Atomicity Consistency Isolation Durable 
+	7. security management 		- https, TLS, otp, password, grid details 
+
+	exapmple pooling cashing
+
+				      db	
+				server|
+				| - per minute 2000 means 33 customers per second
+				
+				| conn3 , conn4, conn5
+		-----------------------------------
+		|		|	|	|
+		2000		4000	3000
+
+
+	THINK + FEEL = ACT + RESULT
+
+	
+	Function Types
+	------------------------------
+	1. function "without argument(s)" and "without return" value
+
+		void function (   )
+		{
+			
+		}
+		void clearScreen()
+		{
+
+		}
+
+	2. function "with argument(s)" but without return value
+		
+		void goto(int x, int y)
+		{
+
+		}
+
+	3. function "with argument(s)" and "with return value"
+
+		float findAverage(int x, int y, int z)
+		{
+			float avg= (x+y+z) / 3.0f;
+			return avg;
+		}
+
+	4. function "without arguments" but "with return value"
+
+		float findTheDistanceBetweenTheEarthAndTheSun()
+		{
+			float SPEED_OF_LIGHT = 186000.519; //miles per sec
+			float TIME_TO_REACH_ON_EARTH=480; // seconds
+			float DISTANCE = SPEED_OF_LIGHT * TIME_TO_REACH_ON_EARTH;
+			return DISTANCE;
+		}
+	
+
+===========================================================================================
+	Personal victory
+	1. Be proactive
+	2. begin with the end in mind
+	3. put first thing first
+	|
+	4. think win-win
+	|
+	public victory
+	5. seek first to understand then to be understood
+	6. synergy
+	7. sharpen the SAW
+
+	OOPS concepts
+	----------------
+
+		"Object" oriented programming system
+
+			classes			vs		object
+			|					|
+		blue print of a house				a house 
+		it is a design of an "object"		it is an instance of a "class"
+
+		class BankAccount			BankAccount baObj = new BankAccount();
+		{
+
+		}
+
+		Object = physical state + behaviour
+				data    + function
+ 
+				
+		BankAccount =  acno, acname, balance + withdraw() { }
+							deposit() { }
+							changeName() { }
+							
+
+		Cat = color, age, breed, weight +  drinkMilk() { }
+							chaseMice() { }
+							snooze() { }
+							meow() { }
+
+
+		Car = color, model, millage, hp, price + accelerate(), changeGear()
+							applyBrake() 
+							openDor(), lockDoor(), closeDoor()
+							takeReverse(), turnRight()
+							turnLeft()
+							...
+
+		mobile = model, color, screensize	+ lock() unlock()
+				keypad, ramsize		calling(), dialing()
+				numberOfSimSlots	sendSMS(), recieveSMS()
+				cameraPixelCount	connectBT()
+				cost			hotspot()  tethering()
+				weight			captureImage() ca
+			
+
+		employee =   empno, basic, hra, da +   signIn(), signOut()
+				ta, gross, net		doProjectAssignment() { }
+				pf, name, mgr		checkSalary() { }
+				dept, arritime,		checkLeaves() { }
+			deptime,  desg, project		applyForLeave() { }
+			projdeadline
+	
+
+		BankAccount.java
+
+		class BankAccount
+		{
+			data
+			+
+			function
+		} 
+	
+
+
+  1	ClassName			BankAccount, SavingsAccount, CurrentAccount
+					FixedDepositAccount, 
+
+  2	variableName			rollNumber,  maturityDate,  socialSecurityNumber		
+  3	methodName/functionName		changeSalary(), setLookAndFeel(), depositCash()
+
+  4	packages			NA\
+
+  5	CONSTANTS			PI, SPEED_OF_LIGHT, GRAVITY, MAX MIN AVG NORM
+		
+
+ 		phases
+		|
+		unmanifested				manifested
+		invisible				visible
+		thoughts + emotions			action + result
+		intention + attention	  time		karma + result		
+
+				           TEAR
+
+	
+
+		OOPS Concepts
+		--------------------
+
+		1. Abstraction
+			- it is the "what is?" part of an object
+			- hiding the complexity of an object
+			- providing its "simple usage" via accesible functions
+
+
+		2. Encapsulation
+			- it is the "How is it?" part of an object
+			- writing/developing the complexity of an object
+			- binding of data with concerned functions
+
+
+			private data - data encapsulation
+			private method - method encapsulation
+
+		3. Polymorphism
+			ability of a business entity to aquire multiple forms
+			a. class extension
+			b. function overloading
+			c. function overriding -> we have overridden this -> toString()
+			d. operator overloading
+
+		
+
+		4. Inheritance
+	
+		5. Object communication
+
+==============================================================================
+Day 3
+
+
+
+				Data types
+					|
+			--------------------------------
+			|				|
+			Primitive			secondary
+			|				|
+	------------------------------------		Object
+	|	|	|	|			   |
+  Integral  Floating  Character Boolean			---------------------------
+  byte	1   float  4  char 2	boolean 1		|
+  short 2   double 8	ASCII	true/false		String
+  int   4		256
+  long	8		UNICODE
+			65535
+
+
+	Joker j = new Joker();
+	SavingsAccount sa = new SavingsAccount();
+
+	int i = 100;
+	i++;
+
+	Integer j = new Integer(100);
+	j.someFunction();
+		
+	Wrapper Classes
+	|
+	byte	Byte	
+	short 	Short
+	int	Integer
+	long 	Long
+	float	Float
+	double	Double
+	char	Character
+	boolean Boolean
+	
+
+	Constructor
+	|
+	is a special function
+	- it has the same name as of the enclosing class
+	- it does not have return type
+	- but it can take arguments
+	- it is automtically invoked during the object creation process
+	
+	- IT IS USED TO INITIALIZE THE STATE OF THE OBJECT
+	- IT IS CALLED ONCE PER OBJECT
+	- JPL provides a default constructor with every class
+	- it is also known as implicit no-arg ctor
+
+	- however a developer can provide user defined explicit ctor
+
+	- u can have either implicit or explicit but not both
+
+
+	Tractor	tractorObj = new Tractor();
+	|	|	      |	      |	
+   classname  refToTractor Allocator constructor
+		object
+
+	class Tractor
+	{
+		int tractorId;
+		String tractorBrand;
+
+		Tractor()
+		{
+		}
+	}
+	
+
+
+=====================================================================
+Day 5
+
+			field		method		class
+
+	abstract	NA		without code	a class with 
+					body		abstract methods[optional]
+
+		abstract class BankAccount {
+
+		}
+				|acno name balance
+				| withdraw(), deposit()
+		----------------------------------------
+		|		|		|
+	SavingsAccount	 CurrentAccount	   CreditAccount
+	|rate			|odLimit	|creditLimit,cashLimit	
+	FixedDepositAccount	
+	|maturityPeriod=3
+
+	class BankAccount
+	{
+
+	}
+
+				drawing
+				|
+		--------------------------------
+		|		|		|		|
+		JupitorSurface	Lava		Forest		colouredRiver
+	
+
+
+
+		Abstract class
+		-------------------
+				it is a partial contract 
+				it may have abstract methods
+
+				classes implementing abstract class must implement
+				the abstract methods, or declare themselves as abstract
+				- it can have non-abstract methods too
+
+				- an abstract class cannot be final
+
+
+		Abstract method
+		-----------------
+				method without code body
+				- must be declared by an abstract class
+	
+
+
+		Interface
+		---------------
+				it is pure abstract class
+
+				it can only have abstract methods
+
+				by default interfaces methods are abstract,public
+
+				by default interface variables are public, static, final
+
+
+
+
+	Packages 
+	--------------
+			to organize the relevant classes in a folder/directory
+
+			similar to directories in os
+
+
+					jungle
+					|
+			-----------------------------------------------------
+			|		|		|		|
+			river		cave		tree		use
+			|		|		|		|
+		Crocodile.java	  Tiger.java	Monkey.java	   Test.java
+		-----------
+		package jungle.river;
+		class Crocodile
+		{
+
+		}
+
+					
+				ACCESS SPECIFIERS
+			
+			1. default 	<-- default/friendly/accessible within its own folder
+			2. public	<-- available to the whole project/internet
+
+			3. private 	<-- only referred by the class in which they are declared
+			4. protected 	<-- referred by the child class too 
+
+
+	
