@@ -372,6 +372,25 @@ Day 5
 
 	abstract	NA		without code	a class with 
 					body		abstract methods[optional]
+					
+					
+		Difference between abstract class and interface
+			abstraction
+				|
+			------------------------------------------
+			|                   			 |
+		 abstract class					interface
+		keyword	|abstract           			 |interface
+1.have abstract and non abstrct methods      		Only abstrct methods and some static methods
+2.Multiple inheritance					No multiple inheritance
+3.Variables - final,non final,static,non static		only static,final
+4.abstract can implement interface                      Interface can not implement abstrct class
+5.Keyword abstract					Keyword interface
+6.extends to java classes and implement interfaces      extend to java interfaces
+7. extends						implements
+8.members are private/protected				public members 
+
+
 
 		abstract class BankAccount {
 
